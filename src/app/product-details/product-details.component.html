@@ -5,4 +5,5 @@
   <!--product.price | currency 是利用管道，把price从数字转化为货币字符串-->
   <h4>{{ product.price | currency }}</h4>
   <p>{{ product.description }}</p>
+  <button type="button" (click)="addToCart(product)">Buy</button>
 </div>
